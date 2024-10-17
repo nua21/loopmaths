@@ -53,7 +53,7 @@ sum = sum + Math.pow(i,2);
 let number = 10;
 let number5 = 7;
 for(let i = 1; i <= number; i++){
-    console.log(i * number5);    
+    console.log(number5 + " " + "X" + " " + i + "=" + " " + number5 * i );    
 }
 // PROBLEM 5 SOLVED
 
