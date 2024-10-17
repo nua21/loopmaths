@@ -21,11 +21,13 @@ for(let i = 33; i >= number2; i--){
 // PROBLEM 3 - FIND OUT THE ADDITION OF ALL OF THE EVEN NUMBERS FROM 1 TO 45
 // SOLVE 3
 let number3 = 45;
+sum = 0;
 for(let i = 1; i <= number3; i++){
     if (i % 2 === 0) {
-        console.log(i);
+       sum += i;
     }
 }
+console.log(sum);
 // PROBLEM 3 SOLVED
 
 // --------------------------------------------------------------------------------------
