@@ -36,7 +36,7 @@ console.log(sum);
 // SOLVE 4
 let number4 = 10;
 sum = 0;
-for(let i = 1; i <= number4; i++){
+for(let i = 1; i <= number4; i+=2){
     if(i % 2 !== 0){
         console.log(i);
     }
@@ -52,7 +52,7 @@ sum = sum + Math.pow(i,2);
 // SOLVE 5
 let number = 10;
 let number5 = 7;
-for(let i = 1; i <= number; i+=2){
+for(let i = 1; i <= number; i++){
     console.log(number5 + " " + "X" + " " + i + "=" + " " + number5 * i );    
 }
 // PROBLEM 5 SOLVED
