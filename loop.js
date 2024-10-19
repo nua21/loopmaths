@@ -36,12 +36,11 @@ console.log(sum);
 // SOLVE 4
 let number4 = 10;
 sum = 0;
-for(let i = 1; i <= number4; i+=2){
+for(let i = 1; i <= number4; i++){
     if(i % 2 !== 0){
-        console.log(i);
+       Math.pow(i,2) 
+         sum = sum + Math.pow(i,2);
     }
-Math.pow(i,2) 
-sum = sum + Math.pow(i,2);
 }
     console.log(sum);
 // PROBLEM 4 SOLVED
